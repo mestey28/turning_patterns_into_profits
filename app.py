@@ -9,13 +9,14 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import jsonify, render_template
 
-engine = create_engine("sqlite:///test.db")
+engine = create_engine("sqlite:///test1.db")
 
 Base=automap_base()
 
-Base.prepare(engine, reflect=True)
+# class customer(Base):
+#     __tablename__ = 'customer' 
 
-transaction = Base.classes.tran_df
+Base.prepare(engine, reflect=True)
 
 session=Session(engine)
 
@@ -24,25 +25,36 @@ def home():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"To get the precipitation by date: /api/v1.0/precipitation<br/>"
-        f"To get a list of stations: /api/v1.0/stations<br/>"
-        f"To get the observed temperature for the last 12 mos: /api/v1.0/tobs<br/>"
-        f"To get min, avg, and max temp for a given start date: /api/v1.0/yyyy-mm-dd<br/>"
-        f"To get min, avg, and max temp for a given date range: /api/v1.0/yyyy-mm-dd/yyyy-mm-dd"
+        f"To get the transactions by date: /transaction<br/>"
+        f"To get a list of customers: /customer<br/>"
+        f"To get the product category defs: /category<br/>"
     )
     
 @app.route("/transaction")
-def transactions():
-    session=Session(engine)
+def transaction():
+
     
-    results = session.query(tran_df).all()
-    # results_list=[{'idc': result[0], 'id': result[1], 'timestamp': result[2], 'lat': result[3], 'lon': result[4]} for result in results]
-    session.close()
+    results = engine.execute('select * from `transaction`').fetchall()
+    results_list=[{'id': result[0], 'transaction_id': result[1], 'cust_id': result[2], 'tran_date': result[3], 'pro_subcat_code': result[4], 'pro_cat_code': result[5], 'Qty': result[6], 'Rate': result[7], 'Tax': result[8], 'total_amt': result[9], 'Store_type': result[10]} for result in results]
 
-    return jsonify(results)
+    return jsonify(results_list)
 
+@app.route("/customer")
+def customer():
 
-        
+    
+    results = engine.execute('select * from customer').fetchall()
+    results_list=[{'id': result[0], 'customer_id': result[1], 'DOB': result[2], 'Gender': result[3], 'city_code': result[4]} for result in results]
+
+    return jsonify(results_list)
+
+@app.route("/category")
+def category():
+
+    results = engine.execute('select * from category').fetchall()
+    results_list=[{'id': result[0], 'prod_cat_code': result[1], 'prod_cat': result[2], 'prod_sub_cat_code': result[3], 'prod_subcat': result[4]} for result in results]
+
+    return jsonify(results_list)
 
 
 if __name__ == "__main__":
