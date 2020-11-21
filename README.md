@@ -23,17 +23,17 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
 
 Breakdown of customer base
 Where are the business trends? 
-  By location 
-  Category 
-  Sub-Category
-  Gender
-  Channel of sale
-  Seasonality
+  -By location 
+  -Category 
+  -Sub-Category
+  -Gender
+  -Channel of sale
+  -Seasonality
 Look at return rate
-  Which items or categories?
-  Cost to overall sales
+  -Which items or categories?
+  -Cost to overall sales
 Are there loyal shoppers vs. one-time shoppers?
-  Customer retention
+  -Customer retention
 Churn
 What is the CLTV (customer lifetime value)
 
