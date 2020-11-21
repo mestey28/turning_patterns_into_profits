@@ -5,7 +5,7 @@ Link to the Heroku app: https://retail-sales-data.herokuapp.com/
 There are 4 extensions on the API, one for each of the csv files we had and a fourth that is all the data merged into a single API.  Enjoy!
 # Project Components
 
-Taking a deep look at who is shopping at your store. What type of customer is drawn to your products? 
+We are a retail consulting service provider. Our client is a boutique shop with 4 channels of distribution. We have been asked to take a look at their customer base to see how we can better reach their customers to increase size of purchase and maintain customers for a longer period of time.
 
 # Analytics in Retail:
 
@@ -21,19 +21,34 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
 
 # Target Questions
 
-Create a report and display the calculated metrics, reports and inferences.
+Breakdown of customer base
+Where are the business trends? 
+  By location 
+  Category 
+  Sub-Category
+  Gender
+  Channel of sale
+  Seasonality
+Look at return rate
+  Which items or categories?
+  Cost to overall sales
+Are there loyal shoppers vs. one-time shoppers?
+  Customer retention
+Churn
+What is the CLTV (customer lifetime value)
+
 
 # About the Data
 
-This book has three sheets (Customer, Transaction, Product Hierarchy):
+Data is a sample of a larger data set, 25k records
 
 #Customer: 
-Customer information including demographics
+Customer information including demographics- age, gender, purchase
 
 #Transaction: 
 Transaction of customers
 
 #Product Hierarchy: 
-Product information
+Product information- category/ sub category
 
 # References & other links
