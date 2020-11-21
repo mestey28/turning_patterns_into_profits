@@ -26,32 +26,32 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
 
 Breakdown of customer base\
 Where are the business trends?
-  -By location\
-  -Category\ 
-  -Sub-Category\
-  -Gender\
-  -Channel of sale\
-  -Seasonality\
-Look at return rate\
-  -Which items or categories?\
-  -Cost to overall sales\
-Are there loyal shoppers vs. one-time shoppers?\
-  -Customer retention\
+  -By location
+  -Category
+  -Sub-Category
+  -Gender
+  -Channel of sale
+  -Seasonality
+Look at return rate
+  -Which items or categories?
+  -Cost to overall sales
+Are there loyal shoppers vs. one-time shoppers?
+  -Customer retention
 Churn\
-What is the CLTV (customer lifetime value)\
+What is the CLTV (customer lifetime value)
 
 
 # About the Data
 
-Data is a sample of a larger data set, 25k records\
+Data is a sample of a larger data set, 25k records
 
-#Customer: \
-Customer information including demographics- age, gender, purchase\
+#Customer: 
+Customer information including demographics- age, gender, purchase
 
-#Transaction: \
-Transaction of customers\
+#Transaction: 
+Transaction of customers
 
-#Product Hierarchy: \
-Product information- category/ sub category\
+#Product Hierarchy: 
+Product information- category/ sub category
 
 # References & other links
