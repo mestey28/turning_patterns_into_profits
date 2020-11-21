@@ -1,16 +1,23 @@
 # turning_patterns_into_profits
-Analysts: Dave Borowski, Brooke Crofts, Chris Joncha, Curtis Caile 
+Analysts: Dave Borowski, Brooke Crofts, Chris Joncha, Curtis Caile, Meg Estey
 
 Link to the Heroku app: https://retail-sales-data.herokuapp.com/
 There are 4 extensions on the API, one for each of the csv files we had and a fourth that is all the data merged into a single API.  Enjoy!
+
+Link to Tableau public for our Visual analysis:
+https://public.tableau.com/profile/curtis.caile#!/vizhome/turning_patterns_into_profits_1/Buyingtrends?publish=yes
 
 ![shopping](https://github.com/cscaile/turning_patterns_into_profits/Images/shopping.jpeg)
 
 # Project Components
 
-We are a retail consulting service provider. Our client is a boutique shop with 4 channels of distribution. We have been asked to take a look at their customer base to see how we can better reach their customers to increase size of purchase and maintain customers for a longer period of time.
+We are a retail consulting service provider. Our client is a boutique shop with 4 channels of distribution. We have been asked to take a look at their customer base to see how we can better reach their customers to increase size of purchase and maintain customers for a longer period of time. 
 
 # Analytics in Retail:
+
+We will use analytic insights to engage customers more effectively and build loyalty. Using advance analytics and machine learning to identify patterns and trends of customers habbits we are able to drive product recommendations by market and product category to take any business to the next level.
+
+Understand customers’ behaviors over time to more effectively map their buyer journeys. Identify and segment your customers by their propensity to buy, incorporating demographic, geographic, psychographic, and social data to launch more effective campaigns.
 
 With the retail market getting more and more competitive by the day, there has never been anything more important than the ability for optimizing service business processes when trying to satisfy the expectations of customers. Channelizing and managing data with the aim of working in favor of the customer as well as generating profits is very significant for survival.
 
