@@ -3,6 +3,9 @@ Analysts: Dave Borowski, Brooke Crofts, Chris Joncha, Curtis Caile
 
 Link to the Heroku app: https://retail-sales-data.herokuapp.com/
 There are 4 extensions on the API, one for each of the csv files we had and a fourth that is all the data merged into a single API.  Enjoy!
+
+![shopping](https://github.com/cscaile/turning_patterns_into_profits/Images/shopping.jpeg)
+
 # Project Components
 
 We are a retail consulting service provider. Our client is a boutique shop with 4 channels of distribution. We have been asked to take a look at their customer base to see how we can better reach their customers to increase size of purchase and maintain customers for a longer period of time.
@@ -22,7 +25,7 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
 # Target Questions
 
 Breakdown of customer base\
-Where are the business trends?\ 
+Where are the business trends?
   -By location\
   -Category\ 
   -Sub-Category\
