@@ -19,6 +19,13 @@ session=Session(engine)
 
 @app.route("/")
 def home():
+    """Main."""
+    return (
+        f"Future Web Page<br/>"
+    )
+
+@app.route("/json_data")
+def home():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
