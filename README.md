@@ -45,6 +45,7 @@ Are there loyal shoppers vs. one-time shoppers?
 Churn\
 What is the CLTV (customer lifetime value)
 
+![Shopping_Bags]https://github.com/cscaile/turning_patterns_into_profits/blob/main/Images/Shopping_Bags.jpg
 
 # About the Data
 
