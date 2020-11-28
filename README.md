@@ -7,7 +7,7 @@ There are 4 extensions on the API, one for each of the csv files we had and a fo
 Link to Tableau public for our Visual analysis:
 https://public.tableau.com/profile/curtis.caile#!/vizhome/turning_patterns_into_profits_1/Buyingtrends?publish=yes
 
-![shopping](https://..Images/shopping.jpeg)
+![shopping](https://github.com/cscaile/turning_patterns_into_profits/blob/main/Images/shopping.jpg)
 
 # Project Components
 
