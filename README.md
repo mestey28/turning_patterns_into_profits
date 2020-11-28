@@ -30,14 +30,14 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
 # Target Questions
 
 Breakdown of customer base\
-Where are the business trends?
+Where are the business trends?\
   -By location\
   -Category\
   -Sub-Category\
   -Gender\
   -Channel of sale\
   -Seasonality\
-Look at return rate.
+Look at return rate.\
   -Which items or categories?\
   -Cost to overall sales\
 Are there loyal shoppers vs. one-time shoppers?\
