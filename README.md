@@ -60,5 +60,8 @@ Transaction of customers
 #Product Hierarchy: 
 Product information- category/ sub category
 
+# Final Website Design
+![2020-11-28](https://github.com/cscaile/turning_patterns_into_profits/blob/main/Images/2020-11-28.png)
+
 # References & other links
 # [Start Bootstrap - SB Admin](https://startbootstrap.com/template/sb-admin/)
