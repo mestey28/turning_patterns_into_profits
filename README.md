@@ -48,6 +48,8 @@ What is the CLTV (customer lifetime value)
 ![Shopping_Bags](https://github.com/cscaile/turning_patterns_into_profits/blob/main/Images/Shopping_Bags.jpg)
 
 # About the Data
+Used a Retail Shop Case study Dataset from Kaggle:
+https://www.kaggle.com/amark720/retail-shop-case-study-dataset?select=prod_cat_info.csv
 
 Data is a sample of a larger data set, 25k records
 
@@ -65,3 +67,4 @@ Product information- category/ sub category
 
 # References & other links
 # [Start Bootstrap - SB Admin](https://startbootstrap.com/template/sb-admin/)
+# [Kaggle Retail Shop Case Study Dataset](https://www.kaggle.com/amark720/retail-shop-case-study-dataset?select=prod_cat_info.csv)
