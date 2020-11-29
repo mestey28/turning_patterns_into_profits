@@ -15,9 +15,11 @@ We are a retail consulting service provider. Our client is a boutique shop with 
 
 # Analytics in Retail:
 
-Our plan is to use analytic insights to engage customers more effectively and build loyalty. Using advance analytics and machine learning to identify patterns and trends of customers habbits we are able to drive product recommendations by market and product category to take any business to the next level.
+Our plan is to use analytic insights to engage customers more effectively and build loyalty. Using advance analytics and machine learning to identify patterns and trends of customers habbits, we are able to drive product recommendations by market and product category to take any business to the next level.
 
-Understand customers’ behaviors over time to more effectively map their buyer journeys. Identify and segment your customers by their propensity to buy, incorporating demographic, geographic, psychographic, and social data to launch more effective campaigns.
+-Understand customers’ behaviors over time to more effectively map their buyer journeys. 
+
+-Identify and segment your customers by their propensity to buy, incorporating demographic, geographic, psychographic, and social data to launch more effective campaigns.
 
 
 We built reports summarizing customer behavior using metrics such as conversion rate, average order value, recency of purchase and total amount spent in recent transactions. These measurements provided general insight into the behavioral tendencies of customers.
@@ -25,7 +27,7 @@ We built reports summarizing customer behavior using metrics such as conversion 
 # Project Scope
 
 
-A Retail store is required to analyze the day-to-day transactions and keep a track of its customers spread across various locations along with their purchases/returns across various categories.
+A Retail store is required to analyze the day-to-day transactions and keep track of its customers spread across various locations along with their purchases/returns across various categories.
 
 # Target Questions
 
